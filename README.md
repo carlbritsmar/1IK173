@@ -1,18 +1,5 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Assignment 1 for the course 1IK173 - Quality Assurance in Information Systems
+Where the assignment consists of implementing an interface and testing creating Postive, Negative and Boundary tests for the methods.
+IIntArray.java is the interface
+App.Java contains the methods that implements interface IIntArray
+appTest.java contains the tests for the App.java methods
