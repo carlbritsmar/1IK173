@@ -1,20 +1,21 @@
+package Assignment1;
 import java.util.Arrays;
 
 public class App implements IIntArray{
     
     int [] appArray;
 
-    @Override
-   public double getAverage(){
-    if(appArray == null || appArray.length == 0){
-        return 0.0;
-    }
-    int sum = 0;
-    for (int i = 0; i < appArray.length; i++){
-        sum += appArray[i];
-    }
-        return (double)sum/appArray.length;
-    }
+        @Override
+       public double getAverage() throws Exception{
+        if(appArray == null || appArray.length == 0){
+           throw new Exception ("array is empty");
+        }
+        int sum = 0;
+        for (int i = 0; i < appArray.length; i++){
+            sum += appArray[i];
+        }
+            return (double)sum/appArray.length;
+        }
     
     @Override
     public int[] findPositions(int val){

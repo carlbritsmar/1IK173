@@ -1,8 +1,9 @@
+package Assignment1;
 public interface IIntArray{
     //get the average value of entire array
     //@return average
 
-    double getAverage();
+    double getAverage() throws Exception;
     //* Find and return all positions where an element's value is <val>.
     //@param val Value to find positions for.
     //@return Positions
